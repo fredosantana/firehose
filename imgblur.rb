@@ -4,7 +4,7 @@ class Image
 	end
 
 	def output_image
-		@image.each { |x| puts x.join("") }
+		@image.each { |x| puts x.join }
 	end
 
 row1 = [0, 0, 0, 0]
